@@ -27,7 +27,7 @@ namespace AndreyPerez.Controllers
         {
             try
             {
-                if(pessoa.Nome == null || pessoa.GostoMusical == null || pessoa.Profissao == null)
+                if(pessoa.Nome == null || pessoa.GostoMusical == null || pessoa.Profissao == null || pessoa.Genero ==  null)
                     throw new Exception("Não foi possivel gerar um pessoa por falta de dados");
                 
                 _context.Pessoas.Add(pessoa);

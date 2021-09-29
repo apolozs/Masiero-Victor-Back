@@ -8,7 +8,7 @@ namespace AndreyPerez.Models
         public string Nome { get; set; }
         public string Profissao { get; set; }
         public string GostoMusical { get; set; }
-        public DateTime DataNascimento { get; set; }
+        public string Genero { get; set; }
         
        
     }
