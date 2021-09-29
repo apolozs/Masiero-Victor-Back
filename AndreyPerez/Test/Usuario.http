@@ -1,0 +1,15 @@
+###
+POST  https://localhost:5001/api/usuario/create
+Content-Type: application/json
+
+{
+    "Nome": "Diogo",
+    "Senha": "123",
+    "Cpf": "999.999.999-42",
+    "DataNascimento": "2000-06-19"
+    
+}
+
+
+###
+GET   https://localhost:5001/api/usuario/list
