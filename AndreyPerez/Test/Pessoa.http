@@ -1,0 +1,15 @@
+###
+POST  https://localhost:5001/api/pessoa/create
+Content-Type: application/json
+
+{
+    "Nome": "Diogo",
+    "Profissao": "Pedreiro",
+    "GostoMusical": "Rock",
+    "DataNascimento": "2000-06-19"
+    
+}
+
+
+###
+GET   https://localhost:5001/api/pessoa/list

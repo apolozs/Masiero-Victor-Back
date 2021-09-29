@@ -13,10 +13,8 @@ namespace AndreyPerez.Data
          public DataContext(DbContextOptions<DataContext> options) : base(options) {}
 
          //Lista de propieadas das classes que vão virar tabelas no banco.
-            public DbSet<Usuario> Usuarios { get; set;}
-            
-            
-        
+            public DbSet<Pessoa> Pessoas { get; set;}
+
      }      
 }
          
